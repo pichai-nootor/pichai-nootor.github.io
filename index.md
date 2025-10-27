@@ -1,8 +1,3 @@
----
-layout: page
-title: "Pichai Nootor"
----
-
 ## Pichai Nootor  
 Software Tester / QA Engineer  
 
