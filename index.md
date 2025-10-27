@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/style.css">
+
 Software Tester / QA Engineer  
 
 📧 pichai@example.com  
