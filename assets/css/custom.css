@@ -1,0 +1,39 @@
+/* Centered resume style for minimal theme */
+.page {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Section headings */
+.page h2 {
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.page p {
+    margin: 5px 0;
+}
+
+/* Lists */
+.page ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.page ul li {
+    margin-bottom: 8px;
+}
+
+/* ซ่อนลิงก์ GitHub ของ minimal theme */
+.header-link {
+    display: none;
+}
