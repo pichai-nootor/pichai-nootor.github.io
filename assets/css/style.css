@@ -1,0 +1,4 @@
+/* ซ่อนลิงก์ GitHub ของ minimal theme */
+.header-link {
+    display: none;
+}
