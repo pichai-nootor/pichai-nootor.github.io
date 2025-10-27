@@ -3,6 +3,8 @@ layout: page
 title: "Pichai Nootor"
 ---
 
+<link rel="stylesheet" href="assets/css/custom.css">
+
 Software Tester / QA Engineer 📧 pichai@example.com 📱 080-000-0000
 
 ---
