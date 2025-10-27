@@ -1,6 +1,3 @@
 theme: jekyll-theme-minimal
 title: "Pichai Nootor"
 description: "Software Tester / QA Engineer"
-markdown: kramdown
-include:
-  - assets
