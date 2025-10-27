@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: "Pichai Nootor"
 description: "Software Tester / QA Engineer"
+plugins: [jekyll-feed]
+include: ["assets/css/custom.css"]
