@@ -6,7 +6,7 @@ title: "My Resume"
 <link rel="stylesheet" href="assets/css/style.css">
 
 <div class="main-content">
-  <h1>พิชัย โนตูร์</h1>
+  <h1>Pichai  Nootor</h1>
   <p>Software Tester & Automation Engineer</p>
 
   ## ประวัติ
