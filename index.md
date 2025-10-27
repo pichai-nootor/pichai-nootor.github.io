@@ -1,4 +1,4 @@
-# Pichai Nootor
+
 Software Tester / QA Engineer
 
 📧 pichai@example.com  
