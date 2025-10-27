@@ -10,9 +10,8 @@ title: "My Resume"
   <p>Software Tester & Automation Engineer</p>
 
   ## ประวัติ
-  - อายุ: 32
+  - อายุ: 31
   - สายงาน: Software Tester
-  - เงินเดือนปัจจุบัน: 37,500
 
   ## Skills
   - Automation (Appium, WebdriverIO)
