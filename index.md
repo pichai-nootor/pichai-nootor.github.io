@@ -1,14 +1,21 @@
+---
+layout: page
+title: "My Resume"
+---
 
-Software Tester / QA Engineer
+<link rel="stylesheet" href="assets/css/style.css">
 
-📧 pichai@example.com  
-📱 080-000-0000  
+<div class="main-content">
+  <h1>พิชัย โนตูร์</h1>
+  <p>Software Tester & Automation Engineer</p>
 
-## About Me
-Passionate QA Engineer with experience in automation testing, ensuring software quality and performance.
+  ## ประวัติ
+  - อายุ: 32
+  - สายงาน: Software Tester
+  - เงินเดือนปัจจุบัน: 37,500
 
-## Skills
-- Manual & Automated Testing
-- Appium, Selenium
-- SQL & Database Testing
-- Agile / Scrum Methodologies
+  ## Skills
+  - Automation (Appium, WebdriverIO)
+  - Manual Testing
+  - Database (PostgreSQL)
+</div>
