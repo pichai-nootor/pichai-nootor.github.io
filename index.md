@@ -14,3 +14,21 @@ Passionate QA Engineer with experience in automation testing, ensuring software 
 - Appium, Selenium
 - SQL & Database Testing
 - Agile / Scrum Methodologies
+
+### Skills
+- Manual & Automated Testing
+- Appium, Selenium
+- SQL & Database Testing
+- Agile / Scrum Methodologies
+
+  ### Skills
+- Manual & Automated Testing
+- Appium, Selenium
+- SQL & Database Testing
+- Agile / Scrum Methodologies
+
+  ### Skills
+- Manual & Automated Testing
+- Appium, Selenium
+- SQL & Database Testing
+- Agile / Scrum Methodologies
