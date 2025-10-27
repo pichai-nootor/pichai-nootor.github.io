@@ -11,11 +11,22 @@
     text-align: center;
 }
 
-/* Section headings */
-.page h2 {
+/* Headings */
+.page h2, .page h3 {
     margin-top: 30px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
+}
+
+/* Lists */
+.page ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.page ul li {
+    margin-bottom: 8px;
 }
 
 /* Paragraphs */
@@ -23,17 +34,7 @@
     margin: 5px 0;
 }
 
-/* Lists */
-.page ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.page ul li {
-    margin-bottom: 8px;
-}
-
-/* ซ่อนลิงก์ GitHub ของ minimal theme */
+/* Hide GitHub link in minimal theme */
 .header-link {
     display: none;
 }
