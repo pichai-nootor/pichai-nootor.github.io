@@ -3,9 +3,6 @@ layout: page
 title: "Pichai Nootor"
 ---
 
-<link rel="stylesheet" href="assets/css/style.css">
-
-<div class="markdown-body">
 Software Tester / QA Engineer 📧 pichai@example.com 📱 080-000-0000
 
 ---
@@ -18,4 +15,3 @@ Passionate QA Engineer with experience in automation testing, ensuring software 
 - Appium, Selenium
 - SQL & Database Testing
 - Agile / Scrum Methodologies
-</div>
