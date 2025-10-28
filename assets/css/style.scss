@@ -2,16 +2,25 @@
 ---
 @import "{{ site.theme }}";
 
+/* ปรับ header ของ Cayman */
 .page-header {
   background: #333333 !important;
+  position: relative;      /* ต้องมี เพื่อให้ ::before วางตำแหน่งได้ */
+  display: flex;           /* จัด layout flex */
+  flex-direction: column;  /* วาง vertical */
+  align-items: center;     /* จัดรูปและ title ให้อยู่กลาง */
+  overflow: visible !important; /* ป้องกันรูปโดนตัด */
 }
+
 /* รูป profile บน title */
 .page-header::before {
   content: "";
+  display: block;          /* ต้องมีเพื่อให้ width/height ใช้ได้ */
   width: 100px;
   height: 100px;
   background: url("/assets/profile.jpg") no-repeat center center;
   background-size: cover;
   border-radius: 50%;
-  margin-bottom: 10px; /* เว้นระยะจาก title */
+  margin-bottom: 10px;     /* เว้นระยะจาก title */
+  z-index: 5;              /* ให้ลอยบนพื้นหลัง */
 }
