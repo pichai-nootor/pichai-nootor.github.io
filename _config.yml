@@ -1,6 +1,6 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 title: "Pichai Nootor"
 description: "Software Tester / QA Engineer"
-
+# jekyll-theme-minimal 
 # repository: pichai-nootor
 # github_username: pichai-nootor
