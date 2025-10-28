@@ -16,9 +16,9 @@
 .page-header::before {
   content: "";
   display: block;          /* ต้องมีเพื่อให้ width/height ใช้ได้ */
-  width: 100px;
-  height: 100px;
-  background: url("/assets/profile.jpg") no-repeat center center;
+  width: 150px;
+  height: 150px;
+  background: url("/assets/profile.jpg") no-repeat center 20%;
   background-size: cover;
   border-radius: 50%;
   margin-bottom: 10px;     /* เว้นระยะจาก title */
