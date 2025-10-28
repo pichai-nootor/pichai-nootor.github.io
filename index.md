@@ -1,7 +1,4 @@
-
-## Pichai Nootor  
-Software Tester / QA Engineer  
-
+ 
 📧 pichai@example.com  
 📱 080-000-0000  
 
