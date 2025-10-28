@@ -1,13 +1,3 @@
----
-title: "Pichai Nootor"
----
-
-<!-- CSS inline ซ่อนปุ่ม GitHub ของธีม minimal -->
-<style>
-a.github-button {
-  display: none !important;
-}
-</style>
 
 ## Pichai Nootor  
 Software Tester / QA Engineer  
