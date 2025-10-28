@@ -3,5 +3,5 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  background-color: #333333 !important;
+  background-color: #333333 !important; /* เพิ่ม !important */
 }
