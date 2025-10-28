@@ -1,4 +1,8 @@
- 
+<header class="page-header">
+  <h1>My Portfolio</h1>
+  <img src="assets/css/profile.jpg" alt="Logo" class="header-logo">
+</header>
+
 📧 pichai@example.com  
 📱 080-000-0000  
 
