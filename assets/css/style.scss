@@ -24,3 +24,7 @@
   margin-bottom: 10px;     /* เว้นระยะจาก title */
   z-index: 5;              /* ให้ลอยบนพื้นหลัง */
 }
+/* ซ่อน footer ของ Cayman */
+.site-footer {
+  display: none !important;
+}
