@@ -13,3 +13,11 @@
   transform: translateY(-50%); /* ปรับตำแหน่งให้อยู่กึ่งกลางพอดี */
   max-height: 80px;  /* กำหนดความสูงสูงสุดของรูปภาพ */
 }
+/* วางรูปมุมขวา */
+.header-logo {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-height: 80px;
+}
