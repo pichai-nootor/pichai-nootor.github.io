@@ -5,3 +5,11 @@
 .page-header {
   background: #333333 !important;
 }
+
+.header-logo {
+  position: absolute; /* ทำให้รูปภาพจัดวางได้อย่างอิสระ */
+  right: 20px;       /* อยู่ห่างจากขอบขวา 20px */
+  top: 50%;          /* อยู่กึ่งกลางในแนวตั้ง */
+  transform: translateY(-50%); /* ปรับตำแหน่งให้อยู่กึ่งกลางพอดี */
+  max-height: 80px;  /* กำหนดความสูงสูงสุดของรูปภาพ */
+}
