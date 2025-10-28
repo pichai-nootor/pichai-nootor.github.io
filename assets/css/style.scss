@@ -5,6 +5,7 @@
 .page-header {
   background: #333333 !important;
 }
+/* แทรกรูปมุมขวา */
 .page-header::after {
   content: "";
   position: absolute;
@@ -13,6 +14,7 @@
   transform: translateY(-50%);
   width: 80px;
   height: 80px;
-  background: url("assets/profile.jpg") no-repeat center center;
+  background: url("/assets/profile.jpg") no-repeat center center;
   background-size: contain;
+  z-index: 5; /* ให้ลอยอยู่เหนือพื้นหลัง */
 }
