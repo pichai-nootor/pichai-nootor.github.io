@@ -1,6 +1,6 @@
 <header class="page-header">
   <h1 class="project-name">{{ site.title }}</h1>
-  <img src="assets/logo.png" alt="Logo" class="header-logo">
+  <img src="assets/css/profile.jpg" alt="Logo" class="header-logo">
 </header>
 
 📧 pichai@example.com  
