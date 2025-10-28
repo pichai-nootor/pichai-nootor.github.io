@@ -1,4 +1,10 @@
+---
+title: "Pichai Nootor"
+---
 
+<p align="center">
+  <img src="assets/profile.jpg" alt="Profile photo" style="width:120px; border-radius:50%; margin-bottom:10px;">
+</p>
 
 📧 pichai@example.com  
 📱 080-000-0000  
