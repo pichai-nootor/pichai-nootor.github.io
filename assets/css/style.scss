@@ -5,14 +5,14 @@
 .page-header {
   background: #333333 !important;
 }
-
 .page-header::after {
   content: "";
-  background: url('assets/css/profile.jpg') no-repeat right center;
-  background-size: 80px auto;
   position: absolute;
-  top: 0;
-  right: 20px;
-  bottom: 0;
-  width: 100px;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 80px;
+  background: url("assets/css/profile.jpg") no-repeat center center;
+  background-size: contain;
 }
