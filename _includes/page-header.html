@@ -2,9 +2,7 @@
   <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile photo" style="width:120px; border-radius:50%; margin-bottom:10px;">
   <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
   <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>                                                                      <!-- ข้อมูลติดต่อ -->
-{% if site.my_contact %}
-<p class="project-contact" style="margin-top:5px; color:#ccc; font-size:0.9em;">
-  {{ site.my_contact }}
-</p>
-{% endif %}
+<p class="contact-info" style="font-size: 1.1em; color: #777;">
+    {{ site.my_contact }}
+  </p>
 </header>
