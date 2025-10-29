@@ -1,13 +1,35 @@
 <header class="page-header" role="banner">
-  <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile photo" style="width:120px; border-radius:50%; margin-bottom:10px;">
-  <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-  <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+  <img src="{{ '/assets/profile.jpg' | relative_url }}"
+       alt="Profile photo"
+       style="width:120px; border-radius:50%; margin-bottom:10px;">
 
-<!-- บรรทัด 2: ข้อมูลติดต่อ -->
+  <!-- ชื่อ -->
+  <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+
+  <!-- บรรทัด 1: role (ตำแหน่ง) -->
+  {% if site.role %}
+  <h2 class="project-tagline">{{ site.role }}</h2>
+  {% endif %}
+
+  <!-- บรรทัด 2: contact -->
   {% if site.contact %}
   <p style="margin-top:5px; color:#ccc; font-size:0.9em;">
     {{ site.contact }}
   </p>
   {% endif %}
-  
 </header>
+<!-- <header class="page-header" role="banner">
+  <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile photo" style="width:120px; border-radius:50%; margin-bottom:10px;">
+  <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+  <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+<!-- บรรทัด 2: ข้อมูลติดต่อ -->
+  <!-- {% if site.contact %}
+  <p style="margin-top:5px; color:#ccc; font-size:0.9em;">
+    {{ site.contact }}
+  </p>
+  {% endif %}
+  
+</header> --> 
+
+
