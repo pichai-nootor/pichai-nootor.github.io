@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header" role="banner">
+        <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile photo" style="width:120px; border-radius:50%; margin-bottom:10px;">
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        
+        <p class="contact-info" style="font-size: 1.1em; color: #FF0000; margin-top: 10px;"> 
+          **ติดต่อ:** pichainootor@gmail.com | 095-395-5453
+        </p>
+      </header>
+
+      <section id="main_content" class="content">
+        {{ content }}
+      </section>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
