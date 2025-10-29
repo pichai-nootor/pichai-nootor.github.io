@@ -4,7 +4,8 @@
 </p>
 <p style="text-indent: 40px; text-align: justify; margin: 0;">I’m a Software Tester with experience in Automation Testing using Playwright, WebDriverIO + Appium, and Robot Framework. I enjoy building scripts and frameworks that help deliver high-quality software. I focus on results and user experience, while continuously learning new tools and improving my testing skills.</p>
 ---
-### <span style="color:#1C700A;">Education</span>
+## Education
+
 **2014 – 2017**  
 Bachelor of Information Technology  
 Suranaree University of Technology, Nakhon Ratchasima  
@@ -13,7 +14,7 @@ Suranaree University of Technology, Nakhon Ratchasima
 Master of Education (M.Ed.), Curriculum and Instruction  
 Saint John’s University, Nakhon Ratchasima
 
-
+---
 ## Work Experience
 
 ### SKOOTAR Beyond Co., Ltd. (Aug 2022 – Present) — *Software Tester*
