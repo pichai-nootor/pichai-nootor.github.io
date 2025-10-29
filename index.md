@@ -29,8 +29,6 @@ Saint John’s University, Nakhon Ratchasima
 - Use build and test pipelines with CI tools (Jenkins).  
 - Design, develop, and execute automation scripts using open-source tools (Robot Framework, Playwright).  
 
-**Skills:**  
-MongoDB, SQL, TypeScript, Visual Studio, JIRA, GIT, Postman  
 
 ---
 
@@ -41,9 +39,6 @@ MongoDB, SQL, TypeScript, Visual Studio, JIRA, GIT, Postman
 - Support to resolve user issues with the CRM system.  
 - Design, develop, and execute automation scripts using Selenium + Robot Framework.  
 - Lead client training sessions and create training manuals.  
-
-**Skills:**  
-JIRA, SQL  
 
 ---
 
@@ -57,8 +52,6 @@ JIRA, SQL
 - Design and execute automation scripts using Selenium + Robot Framework.  
 - Lead client training sessions and create training manuals.  
 
-**Skills:**  
-SQL, JIRA, Postman  
 
 ---
 
@@ -69,10 +62,6 @@ SQL, JIRA, Postman
 - Analyze and design web applications based on customer requirements.  
 - Communicate requirements and feedback between PM and Dev teams.  
 - Lead client training sessions and create manuals.  
-
-**Skills:**  
-Photoshop, Illustrator, XD, HTML, CSS, WordPress, Bootstrap,  
-TypeScript, SQL, Angular, Visual Studio, JIRA, Trello, GIT, Postman  
 
 ---
 
