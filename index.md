@@ -33,51 +33,57 @@ Saint John’s University, Nakhon Ratchasima
 ---
 
 ### AP (Thailand) Public Company Limited (Apr 2022 – Jul 2022) — *Software Tester*
-- Design test cases and implement system tests.  
-- Test mobile and web applications.  
-- Develop project-related documents such as user acceptance test documents and user manuals.  
-- Support to resolve user issues with the CRM system.  
-- Design, develop, and execute automation scripts using Selenium + Robot Framework.  
-- Lead client training sessions and create training manuals.  
+
+- **Design** and implement system test cases  
+- **Test** mobile and web applications  
+- **Develop** project-related documents, including user acceptance tests and user manuals  
+- **Support** users to resolve issues with the CRM system  
+- **Design, develop, and execute automation scripts** using **Robot Framework**  
+- **Lead client training sessions** and create training manuals
 
 ---
 
 ### Reno (Thailand) Co., Ltd. (Jul 2021 – Mar 2022) — *Software Tester*
-- Design test cases and implement system tests.  
-- Test Windows and web applications.  
-- Develop project-related documents and user manuals.  
-- Analyze test results and provide feedback to developers.  
-- Report defects in bug tracking systems.  
-- Coordinate with Developers and PMs to solve software errors.  
-- Design and execute automation scripts using Selenium + Robot Framework.  
-- Lead client training sessions and create training manuals.  
 
+- **Design** and implement system test cases  
+- **Test** Windows and web applications  
+- **Develop** project-related documents and user manuals  
+- **Analyze** test results and provide feedback to developers  
+- **Report** defects in bug tracking systems  
+- **Coordinate** with Developers and Project Managers to resolve software errors  
+- **Design and execute automation scripts** using **Selenium** + **Robot Framework**  
+- **Lead client training sessions** and create training manuals
 
 ---
 
 ### Kabin Technology Co., Ltd. (Mar 2020 – Jun 2021) — *Software Developer & Business Analyst*
-- Develop a Telemedicine System for the Department of Medical Services (DMS).  
-- Test mobile apps, web applications, and APIs.  
-- Create user acceptance test documents and manuals.  
-- Analyze and design web applications based on customer requirements.  
-- Communicate requirements and feedback between PM and Dev teams.  
-- Lead client training sessions and create manuals.  
+
+- **Develop** a Telemedicine System for the Department of Medical Services (DMS)  
+- **Test** mobile apps, web applications, and APIs  
+- **Create** user acceptance test documents and manuals  
+- **Analyze and design** web applications based on customer requirements  
+- **Communicate** requirements and feedback between Project Managers and Development teams  
+- **Lead client training sessions** and create training manuals
+
 
 ---
 
 ### Patumkongka School (Jul 2017 – Feb 2020) — *Computer Teacher*
-- Taught computer-related subjects to high school students.  
-- Designed lesson plans and school-level IT learning materials.  
-- Supported school staff with technology integration and maintenance.
+
+- **Teach** computer-related subjects to high school students  
+- **Design** lesson plans and school-level IT learning materials  
+- **Support** school staff with technology integration and maintenance
+
 
 ---
 ## Skills
 
-- Programming Languages: SQL, TypeScript, MongoDB
-- Tools & Frameworks: Robot Framework, Playwright, Selenium
-- Project Management: JIRA, Visual Studio, Trello, GIT
-- Web & Design: HTML, CSS, Bootstrap, WordPress, Photoshop, Illustrator, XD
-- API Test Tools: Postman
+- **Programming Languages:** SQL, TypeScript, MongoDB  
+- **Tools & Frameworks:** Robot Framework, Playwright, Selenium, WebDriverIO + Appium, Flutter Driver  
+- **Project Management:** JIRA, Visual Studio, Trello, GIT  
+- **Web & Design:** HTML, CSS, Bootstrap, WordPress, Photoshop, Illustrator, XD  
+- **API Test Tools:** Postman
+
 
 
 
