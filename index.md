@@ -2,7 +2,7 @@
 </p>
 <p style="text-indent: 40px;">I’m a Software Tester with experience in Automation Testing using Playwright, WebDriverIO + Appium, and Robot Framework. I enjoy building scripts and frameworks that help deliver high-quality software. I focus on results and user experience, while continuously learning new tools and improving my testing skills.</p>
 ---
-### Education
+### <span style="color:#4F4F4F;">Education</span>
 **2014 – 2017**  
 Bachelor of Information Technology  
 Suranaree University of Technology, Nakhon Ratchasima  
