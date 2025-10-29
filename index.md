@@ -79,11 +79,8 @@ Saint John’s University, Nakhon Ratchasima
 ## Skills
 
 - **Programming Languages:** SQL, TypeScript, MongoDB  
-- **Tools & Frameworks:** Robot Framework, Playwright, Selenium, WebDriverIO + Appium, Flutter Driver  
+- **Tools & Frameworks:** Robot Framework, Playwright, WebDriverIO + Appium, Flutter Driver  
 - **Project Management:** JIRA, Visual Studio, Trello, GIT  
 - **Web & Design:** HTML, CSS, Bootstrap, WordPress, Photoshop, Illustrator, XD  
 - **API Test Tools:** Postman
-
-
-
 
