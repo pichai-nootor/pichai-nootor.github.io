@@ -81,4 +81,14 @@ TypeScript, SQL, Angular, Visual Studio, JIRA, Trello, GIT, Postman
 - Designed lesson plans and school-level IT learning materials.  
 - Supported school staff with technology integration and maintenance.
 
+---
+## Skills
+
+- Programming Languages: SQL, TypeScript, MongoDB
+- Tools & Frameworks: Robot Framework, Playwright, Selenium
+- Project Management: JIRA, Visual Studio, Trello, GIT
+- Web & Design: HTML, CSS, Bootstrap, WordPress, Photoshop, Illustrator, XD
+- API Test Tools: Postman
+
+
 
