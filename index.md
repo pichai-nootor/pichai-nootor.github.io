@@ -18,17 +18,17 @@ Saint John’s University, Nakhon Ratchasima
 ## Work Experience
 
 ### SKOOTAR Beyond Co., Ltd. (Aug 2022 – Present) — *Software Tester*
-- Design test case and implement system test.  
-- Test mobile applications, web applications, websites, and APIs.  
-- Develop project-related documents such as user acceptance test documents and user manuals.  
-- Defect tracking in applicable tools; status and defect reporting.  
-- Perform regression testing when bugs are resolved.  
-- Investigate non-conforming software causes and train users to implement solutions.  
-- Coordinate with Developers and PMs to solve software errors.  
-- Lead client training sessions and create training manuals.  
-- Use build and test pipelines with CI tools (Jenkins).  
-- Design, develop, and execute automation scripts using open-source tools (Robot Framework, Playwright).  
 
+- **Design** and implement system test cases  
+- **Test** mobile apps, web applications, websites, and APIs  
+- **Develop** project-related documents, including user acceptance tests and user manuals  
+- **Track defects** using applicable tools; provide status and defect reports  
+- **Perform regression testing** after bug fixes  
+- **Investigate issues** in non-conforming software and train users on solutions  
+- **Coordinate** with Developers and Project Managers to resolve software errors  
+- **Lead client training sessions** and create training manuals  
+- **Use CI pipelines** (**Jenkins**) for build and testing automation  
+- **Design, develop, and execute automation scripts** using **Robot Framework**, **Playwright**, **WebDriverIO + Appium**
 
 ---
 
