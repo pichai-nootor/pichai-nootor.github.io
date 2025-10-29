@@ -1,4 +1,4 @@
-Mail: pichai@example.com | Phone: 095-395-5453  
+Mail: pichai@example.com \| Phone: 095-395-5453  
 
 ### About Me
 -
