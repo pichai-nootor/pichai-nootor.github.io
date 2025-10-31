@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 /* ปรับ header ของ Cayman */
-.page-header {
+header.page-header {
   background: #919191 !important;
   position: relative;
   display: flex;
