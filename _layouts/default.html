@@ -35,6 +35,13 @@ header.page-header h3 {
   margin: 0.5rem 0;
   line-height: 1.2;
 }
+
+     .main-content {
+        max-width: 900px;   /* กว้างสุด 900px */
+        margin: 2rem auto;  /* เว้นระยะบน-ล่าง 2rem, กึ่งกลางแนวนอน */
+        padding: 0 1rem;    /* เว้นขอบซ้ายขวา */
+        box-sizing: border-box;
+      }
 </style>
 
 
@@ -55,6 +62,8 @@ header.page-header h3 {
       </h3>
     </header>
 
-    {{ content }}
+    <div class="main-content">
+      {{ content }}
+    </div>
   </body>
 </html>
