@@ -1,4 +1,4 @@
-<p style="text-indent: 40px; text-align: justify; margin: 0;">I’m a Software Tester with experience in Automation Testing using Playwright, WebDriverIO + Appium, and Robot Framework. I enjoy building scripts and frameworks that help deliver high-quality software. I focus on results and user experience, while continuously learning new tools and improving my testing skills.</p>
+<p style="text-indent: 40px; text-align: justify; margin: 0;">I’m a Software Tester with experience in Manual Testing, Automation Testing using Playwright, WebDriverIO + Appium, and Robot Framework, and API testing with Postman. I enjoy building scripts and frameworks that help deliver high-quality software. I focus on results and user experience, while continuously learning new tools and improving my testing skills.</p>
 ---
 ## Education
 
