@@ -17,7 +17,7 @@
 
     /* header แบบเต็มจอ */
     header.page-header {
-      background: #3e403e !important;
+      background: #dedede !important;
       position: relative;
       display: flex;
       flex-direction: column;
@@ -30,18 +30,17 @@
       color: white;
     }
 
-    /* ลบ ::after ของ Cayman */
     header.page-header::after {
       display: none !important;
     }
 
-    /* ปรับระยะและสี h1-h3 */
+
     header.page-header h1 {
       margin: 0.3rem 0;
       line-height: 1.2;
       text-align: center;
       font-size: 2rem;
-      color: #ffffff; /* ชื่อเด่นที่สุด */
+      color: #252525;
     }
 
     header.page-header h2 {
@@ -49,7 +48,7 @@
       line-height: 1.2;
       text-align: center;
       font-size: 1.2rem;
-      color: #ffeb3b; /* tagline สีต่างจาก h1 */
+      color: #252525; 
     }
 
     header.page-header h3 {
@@ -58,7 +57,7 @@
       text-align: center;
       font-size: 1rem;
       font-weight: normal;
-      color: #cfcfcf; /* contact สีเทาอ่อน */
+      color: #cfcfcf; 
     }
 
     /* responsive สำหรับ mobile */
@@ -81,7 +80,7 @@
       }
     }
 
-    /* content อยู่กลางจอ ไม่เต็มหน้าจอ */
+
     .main-content {
       max-width: 900px;
       margin: 2rem auto;
@@ -90,11 +89,11 @@
     }
 
     header.page-header .contact-info {
-      color: #ffffff; /* สีเหลืองอ่อนสำหรับ email/phone */
-      font-weight: bold; /* ทำให้เด่นขึ้นหน่อย */
+      color: #00139ce3; 
+      font-weight: bold; 
     }
 
-    /* ปรับรูปโปรไฟล์ให้เหมาะกับมือถือ */
+
     header.page-header img {
       width: 150px;
       height: 150px;
