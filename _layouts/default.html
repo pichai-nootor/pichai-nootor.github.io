@@ -5,54 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ site.title | default: site.github.repository_name }}</title>
-<style>
-html, body {
-  margin: 0;
-  padding: 0;
-}
 
-header.page-header {
-  background: #919191 !important;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: visible !important;
-  color: white !important;
-  /* padding-top: 5rem; */
-  padding-bottom: 2rem;
-  width: 100vw;
-  margin: 0;
-}
+    <style>
+      /* กำจัด margin/padding ของ html/body */
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5; /* พื้นหลังส่วน content */
+      }
 
-header.page-header::after {
-  display: none !important;
-}
+      /* header แบบเต็มจอ */
+      header.page-header {
+        background: #919191 !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: visible !important;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        width: 100vw;
+        margin: 0;
+        color: white;
+      }
 
-header.page-header h1,
-header.page-header h2,
-header.page-header h3 {
-  margin: 0.5rem 0;
-  line-height: 1.2;
-}
+      /* ลบ ::after ของ Cayman */
+      header.page-header::after {
+        display: none !important;
+      }
 
-     .main-content {
-        max-width: 900px;   /* กว้างสุด 900px */
-        margin: 2rem auto;  /* เว้นระยะบน-ล่าง 2rem, กึ่งกลางแนวนอน */
-        padding: 0 1rem;    /* เว้นขอบซ้ายขวา */
+      /* ปรับระยะและสี h1-h3 */
+      header.page-header h1 {
+        margin: 0.3rem 0;
+        line-height: 1.2;
+        text-align: center;
+        font-size: 2rem;
+        color: #ffffff; /* ชื่อเด่นที่สุด */
+      }
+      header.page-header h2 {
+        margin: 0.3rem 0;
+        line-height: 1.2;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #ffeb3b; /* tagline สีต่างจาก h1 */
+      }
+      header.page-header h3 {
+        margin: 0.3rem 0;
+        line-height: 1.2;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #cfcfcf; /* contact สีเทาอ่อน */
+      }
+
+      /* responsive สำหรับ mobile */
+      @media screen and (max-width: 600px) {
+        header.page-header {
+          padding-top: 3rem;
+          padding-bottom: 1.5rem;
+        }
+        header.page-header h1 {
+          font-size: 1.5rem;
+        }
+        header.page-header h2 {
+          font-size: 1rem;
+        }
+        header.page-header h3 {
+          font-size: 0.9rem;
+        }
+      }
+
+      /* content อยู่กลางจอ ไม่เต็มหน้าจอ */
+      .main-content {
+        max-width: 900px;   
+        margin: 2rem auto;  
+        padding: 0 1rem;    
         box-sizing: border-box;
       }
-</style>
 
-
+      /* ปรับรูปโปรไฟล์ให้เหมาะกับมือถือ */
+      header.page-header img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: center 20%;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-bottom: 10px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.15);
+      }
+      @media screen and (max-width: 600px) {
+        header.page-header img {
+          width: 120px;
+          height: 120px;
+          margin-top: 3rem;
+        }
+      }
+    </style>
   </head>
 
   <body>
     <header class="page-header" role="banner" style="text-align:center;">
       <img 
         src="{{ '/assets/profile.jpg' | relative_url }}" 
-        alt="Profile photo" 
-        style="width:150px; height:150px; object-fit:cover; object-position:center 20%; margin-top:5rem; border-radius:50%; margin-bottom:10px; box-shadow:0 0 8px rgba(0,0,0,0.15);"
+        alt="Profile photo"
       />
       
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
