@@ -16,7 +16,7 @@
 
       /* header แบบเต็มจอ */
       header.page-header {
-        background: #919191 !important;
+        background: #3e403e !important;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -82,6 +82,10 @@
         padding: 0 1rem;    
         box-sizing: border-box;
       }
+      header.page-header .contact-info {
+  color: #ffd700; /* สีเหลืองอ่อนสำหรับ email/phone */
+  font-weight: bold; /* ทำให้เด่นขึ้นหน่อย */
+}
 
       /* ปรับรูปโปรไฟล์ให้เหมาะกับมือถือ */
       header.page-header img {
@@ -113,9 +117,9 @@
       
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <h3 class="project-tagline">
-        Mail: pichainootor@gmail.com | Phone: 095-395-5453
-      </h3>
+   <h3 class="project-tagline">
+  Mail: <span class="contact-info">pichainootor@gmail.com</span> | Phone: <span class="contact-info">095-395-5453</span>
+</h3>
     </header>
 
     <div class="main-content">
