@@ -5,34 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ site.title | default: site.github.repository_name }}</title>
-
-    <!-- ✅ วางตรงนี้ -->
 <style>
-  /* ทำให้ header สีเทาเต็มพื้นที่ */
-  header.page-header {
-    background: #919191 !important;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: visible !important;
-    color: white !important; /* ให้ตัวหนังสือขาวอ่านชัด */
-    padding-top: 5rem !important;
-    padding-bottom: 3rem !important;
-    width: 100vw;  /* กินเต็มหน้าจอแนวนอน */
-    margin-left: calc(-50vw + 50%); /* ป้องกันขอบขาวด้านข้าง */
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
-  /* ลบโค้งและเงาของธีม Cayman ที่บัง header */
-  .page-header::after {
-    display: none !important;
-  }
+header.page-header {
+  background: #919191 !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: visible !important;
+  color: white !important;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  width: 100vw;
+  margin: 0;
+}
 
-  /* ปรับให้เนื้อหาด้านล่างไม่ชิด */
-  .main-content {
-    padding-top: 0 !important;
-  }
+header.page-header::after {
+  display: none !important;
+}
+
+header.page-header h1,
+header.page-header h2,
+header.page-header h3 {
+  margin: 0.5rem 0;
+  line-height: 1.2;
+}
 </style>
+
 
   </head>
 
