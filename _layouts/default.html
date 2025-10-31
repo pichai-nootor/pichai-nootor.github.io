@@ -54,3 +54,82 @@
 
     header.page-header h3 {
       margin: 0.3rem 0;
+      line-height: 1.2;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: normal;
+      color: #cfcfcf; /* contact สีเทาอ่อน */
+    }
+
+    /* responsive สำหรับ mobile */
+    @media screen and (max-width: 600px) {
+      header.page-header {
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+      }
+
+      header.page-header h1 {
+        font-size: 1.5rem;
+      }
+
+      header.page-header h2 {
+        font-size: 1rem;
+      }
+
+      header.page-header h3 {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* content อยู่กลางจอ ไม่เต็มหน้าจอ */
+    .main-content {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+
+    header.page-header .contact-info {
+      color: #ffffff; /* สีเหลืองอ่อนสำหรับ email/phone */
+      font-weight: bold; /* ทำให้เด่นขึ้นหน่อย */
+    }
+
+    /* ปรับรูปโปรไฟล์ให้เหมาะกับมือถือ */
+    header.page-header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: center 20%;
+      border-radius: 50%;
+      margin-top: 5rem;
+      margin-bottom: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    }
+
+    @media screen and (max-width: 600px) {
+      header.page-header img {
+        width: 120px;
+        height: 120px;
+        margin-top: 3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="page-header" role="banner" style="text-align:center;">
+    <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile photo" />
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    <h3 class="project-tagline">
+      Mail: <span class="contact-info">pichainootor@gmail.com</span> |
+      Phone: <span class="contact-info">095-395-5453</span>
+    </h3>
+  </header>
+
+  <div class="main-content">
+    {{ content }}
+  </div>
+</body>
+
+</html>
