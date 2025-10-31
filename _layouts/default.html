@@ -7,16 +7,33 @@
     <title>{{ site.title | default: site.github.repository_name }}</title>
 
     <!-- ✅ วางตรงนี้ -->
-    <style>
-      header.page-header {
-  background: #919191 !important;
-  position: relative;      /* ต้องมี เพื่อให้ ::before วางตำแหน่งได้ */
-  display: flex;           /* จัด layout flex */
-  flex-direction: column;  /* วาง vertical */
-  align-items: center;     /* จัดรูปและ title ให้อยู่กลาง */
-  overflow: visible !important; /* ป้องกันรูปโดนตัด */
-      }
-    </style>
+<style>
+  /* ทำให้ header สีเทาเต็มพื้นที่ */
+  header.page-header {
+    background: #919191 !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible !important;
+    color: white !important; /* ให้ตัวหนังสือขาวอ่านชัด */
+    padding-top: 5rem !important;
+    padding-bottom: 3rem !important;
+    width: 100vw;  /* กินเต็มหน้าจอแนวนอน */
+    margin-left: calc(-50vw + 50%); /* ป้องกันขอบขาวด้านข้าง */
+  }
+
+  /* ลบโค้งและเงาของธีม Cayman ที่บัง header */
+  .page-header::after {
+    display: none !important;
+  }
+
+  /* ปรับให้เนื้อหาด้านล่างไม่ชิด */
+  .main-content {
+    padding-top: 0 !important;
+  }
+</style>
+
   </head>
 
   <body>
