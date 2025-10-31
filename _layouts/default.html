@@ -9,9 +9,12 @@
     <!-- ✅ วางตรงนี้ -->
     <style>
       header.page-header {
-        background: #919191 !important; /* สีพื้นหลังใหม่ */
-        padding-top: 3rem !important;   /* ดันลงจากขอบบน */
-        padding-bottom: 2rem;
+  background: #919191 !important;
+  position: relative;      /* ต้องมี เพื่อให้ ::before วางตำแหน่งได้ */
+  display: flex;           /* จัด layout flex */
+  flex-direction: column;  /* วาง vertical */
+  align-items: center;     /* จัดรูปและ title ให้อยู่กลาง */
+  overflow: visible !important; /* ป้องกันรูปโดนตัด */
       }
     </style>
   </head>
