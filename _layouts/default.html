@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
   <title>{{ site.title | default: site.github.repository_name }}</title>
 
   <style>
@@ -111,6 +115,41 @@
         margin-top: 3rem;
       }
     }
+
+
+  .project-tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0.3rem;
+    font-weight: 500;
+  }
+
+  .fa-solid {
+    color: #555;
+  }
+
+  .separator {
+    color: #888;
+  }
+
+  @media (max-width: 600px) {
+    .project-tagline {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .separator {
+      display: none;
+    }
+  }
   </style>
 </head>
 
@@ -119,10 +158,14 @@
     <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile photo" />
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-    <h3 class="project-tagline">
-      Mail: <span class="contact-info">pichainootor@gmail.com</span> |
-      Phone: <span class="contact-info">095-395-5453</span>
-    </h3>
+   <h3 class="project-tagline">
+  <i class="fa-solid fa-envelope"></i>
+  <span class="contact-info">pichainootor@gmail.com</span>
+  <span class="separator">|</span>
+  <i class="fa-solid fa-phone"></i>
+  <span class="contact-info">095-395-5453</span>
+</h3>
+
   </header>
 
   <div class="main-content">
