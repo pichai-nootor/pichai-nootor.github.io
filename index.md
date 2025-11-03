@@ -28,6 +28,7 @@ Saint John’s University, Nakhon Ratchasima
 - **Work closely with Product Owners and Developers** to define **acceptance criteria** and validate that **user stories** meet both business and technical requirements  
 - **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration  
 - **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
+- **Participated in ISO/IEC 29110 training (2025)** to enhance understanding of software quality standards and process improvement 
   
 **Key Projects:**
 - **SKOOTAR Delivery Platform** — End-to-end testing of mobile (iOS/Android) and web applications used for delivery management  
