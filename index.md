@@ -25,6 +25,9 @@ Saint John’s University, Nakhon Ratchasima
 - **Lead client training sessions** and create training manuals  
 - **Use CI pipelines** (**Jenkins**) for build and testing automation  
 - **Design, develop, and execute automation scripts** using **Robot Framework**, **Playwright**, **WebDriverIO + Appium**
+- **Work closely with Product Owners and Developers** to define **acceptance criteria** and validate that **user stories** meet both business and technical requirements  
+- **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration  
+- **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
 
 ---
 
@@ -60,7 +63,9 @@ Saint John’s University, Nakhon Ratchasima
 - **Analyze and design** web applications based on customer requirements  
 - **Communicate** requirements and feedback between Project Managers and Development teams  
 - **Lead client training sessions** and create training manuals
-
+- **Work closely with Product Owners and Developers** to define **acceptance criteria** and validate that **user stories** meet both business and technical requirements  
+- **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration  
+- **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
 
 ---
 
