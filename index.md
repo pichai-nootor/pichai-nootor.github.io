@@ -28,7 +28,13 @@ Saint John’s University, Nakhon Ratchasima
 - **Work closely with Product Owners and Developers** to define **acceptance criteria** and validate that **user stories** meet both business and technical requirements  
 - **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration  
 - **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
-
+  
+**Key Projects:**
+- **SKOOTAR Delivery Platform** — End-to-end testing of mobile (iOS/Android) and web applications used for delivery management  
+  - Automated functional and regression tests using **Playwright** and **WebDriverIO + Appium**  
+  - API testing and performance validation via **Postman**
+  - Collaborated with developers to verify backend logic and database integrity (using **MySQL / MongoDB**)  
+  - Implemented CI/CD pipelines with **Jenkins** to automate build and testing processes
 ---
 
 ### AP (Thailand) Public Company Limited (Apr 2022 – Jul 2022) — *Software Tester*
