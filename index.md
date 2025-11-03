@@ -48,6 +48,12 @@ Saint John’s University, Nakhon Ratchasima
 - **Design, develop, and execute automation scripts** using **Robot Framework**  
 - **Lead client training sessions** and create training manuals
 
+**Key Projects:**  
+- **CRM System** — Worked on the company's **Customer Relationship Management (CRM) system**, which supports multiple departments, including **Marketing, Sales, and Customer Service**, enabling them to **collaborate efficiently and manage customer interactions effectively**.  
+  - Developed automation scripts using **Robot Framework** to **reduce steps and increase efficiency in testing quotation creation**.  
+  - Managed test cases and tracked defects using **Jira**, ensuring high-quality releases and smooth deployment of updates.  
+  - Provided support and training to users to ensure effective adoption of the system.
+
 ---
 
 ### Reno (Thailand) Co., Ltd. (Jul 2021 – Mar 2022) — *Software Tester*
