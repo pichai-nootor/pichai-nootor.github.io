@@ -35,6 +35,7 @@ Saint John’s University, Nakhon Ratchasima
   - API testing and performance validation via **Postman**
   - Collaborated with developers to verify backend logic and database integrity (using **MySQL / MongoDB**)  
   - Implemented CI/CD pipelines with **Jenkins** to automate build and testing processes
+    
 ---
 
 ### AP (Thailand) Public Company Limited (Apr 2022 – Jul 2022) — *Software Tester*
