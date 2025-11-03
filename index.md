@@ -81,6 +81,13 @@ Saint John’s University, Nakhon Ratchasima
 - **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration  
 - **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
 
+**Key Projects:**  
+- **DMS Telemedicine** — rovides **remote medical and healthcare services** to citizens, allowing licensed medical personnel to deliver consultations and healthcare services via **video conference technology**.    
+  - Collected business and functional requirements directly from stakeholders  
+  - Facilitated communication between clients and development teams to ensure accurate implementation  
+  - Created and maintained **user acceptance test documents and manuals**  
+  - Provided guidance and support to ensure smooth adoption and deployment of the system
+    
 ---
 
 ### Patumkongka School (Jul 2017 – Feb 2020) — *Computer Teacher*
