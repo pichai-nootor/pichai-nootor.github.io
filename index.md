@@ -15,20 +15,21 @@ Saint John’s University, Nakhon Ratchasima
 
 ### SKOOTAR Beyond Co., Ltd. (Aug 2022 – Present) — *Software Tester*
 
-- **Design** and implement system test cases  
-- **Test** mobile apps, web applications, websites, and APIs  
-- **Develop** project-related documents, including user acceptance tests and user manuals  
-- **Track defects** using applicable tools; provide status and defect reports  
-- **Perform regression testing** after bug fixes  
-- **Investigate issues** in non-conforming software and train users on solutions  
-- **Coordinate** with Developers and Project Managers to resolve software errors  
-- **Lead client training sessions** and create training manuals  
-- **Use CI pipelines** (**Jenkins**) for build and testing automation  
-- **Design, develop, and execute automation scripts** using **Robot Framework**, **Playwright**, **WebDriverIO + Appium**
-- **Work closely with Product Owners and Developers** to define **acceptance criteria** and validate that **user stories** meet both business and technical requirements  
-- **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration  
-- **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
-- **Participated in ISO/IEC 29110 training (2025)** to enhance understanding of software quality standards and process improvement 
+* **Design** and implement system test cases in an **Agile/Scrum environment**
+* **Test** mobile apps, web applications, websites, and APIs across **sprint-based development**
+* **Develop** project-related documents, including **user acceptance tests (UAT)** and user manuals
+* **Track defects** using applicable tools; provide **test status and defect reports**
+* **Perform regression testing** after bug fixes within each sprint
+* **Investigate issues** in non-conforming software and train users on solutions
+* **Coordinate** with **Developers and Project Managers** to resolve software errors
+* **Lead client training sessions** and create training manuals
+* **Use CI pipelines** (**Jenkins**) for build and testing automation
+* **Design, develop, and execute automation scripts** using **Robot Framework**, **Playwright**, **WebDriverIO + Appium**
+* **Work closely with Product Owners and Developers** to define **acceptance criteria** and validate that **user stories** meet both business and technical requirements
+* **Contribute to backlog refinement and QA process improvement** to enhance testing efficiency and team collaboration
+* **Utilize Agile tools** such as **Jira**, **Confluence**, and **Trello** for **test management**, **defect tracking**, and **project collaboration**
+* **Participated in ISO/IEC 29110 training (2025)** to enhance understanding of **software quality standards and process improvement**
+
   
 **Key Projects:**
 - **SKOOTAR Delivery Platform** — End-to-end testing of mobile (iOS/Android) and web applications used for delivery management  
